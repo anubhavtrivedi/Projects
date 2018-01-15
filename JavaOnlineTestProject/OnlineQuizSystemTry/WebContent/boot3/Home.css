@@ -1,0 +1,160 @@
+
+.jumbotron .container h1{
+    color:;
+   font-family: Papyrus,fantasy;
+    font-size: 100px;
+    text-align: center;
+}
+
+    .about{
+        background-color: white;
+    }
+    .jumbotron{
+
+       background-image: url('../boot3/20150708172005-coding-working-workspace-apple-macintosh.jpeg');
+        height:500px;
+    }
+   .col-md-7 p{
+       text-align: center;
+       margin-left:50px;
+        margin-right:50px;
+       font-size:15px;
+font-family: "Great Vibes", cursive;
+ }
+  .col-md-7 h3{
+      font-size: 27px;
+       text-align: left;
+       margin-left: 43px;
+       font-family: Comic Sans MS;
+  }
+   .col-md-7 h1{
+       margin-left: 40px;
+       text-align: left;
+        font-family: Georgia, arial, serif;
+  }
+  .col-md-7 h4{
+       text-align: center;
+       margin-left:80px;
+        margin-right:80px;
+       font-size:20px;
+    font-family: Impact, Charcoal, sans-serif;
+ }
+ .col-md-5 img{
+       margin-top: 80px;
+       height:400px;
+       width:480px;
+      
+   
+       align-self: center;
+  }
+   .col-md-5 p{
+       margin-top: 30px;
+       text-align: center;
+       font-size:15px;
+       color: #7c795d; 
+       font-family: 'Rouge Script', cursive; 
+  }
+
+  
+
+
+
+
+
+
+    .jumbotron{
+     	 background-image: url('jumbo1.jpg');
+        height:500px;
+    }
+    .jumbotron1 .button-group{
+                margin-left:430px;
+               
+    }  
+    
+  
+    .jumbotron1 .button-group .btn{
+               
+                  background-color:black;
+    } 
+    .jumbotron1 button{
+                margin-left:20px;
+    }    
+    .jumbotron1 img{
+        height: 25px;
+        width:80px;
+    }    
+    .jumbotron1{
+      
+        background-color:black;
+        margin-bottom:0px;
+    }
+                
+            .jumbotron1 p{
+                text-align:center;
+                 font-size: 13px;
+                  color:#999999;
+            }
+             .jumbotron1 p:hover{
+              color:white;
+            }
+        .jumbotron1 .row .col-md-8 hr{
+            margin-left:460px;
+        }
+              .jumbotron1 .row .col-md-8 p{
+            margin-left:470px;
+        }
+           .jumbotron1 .row .col-md-8 p:hover{
+            margin-left:470px;
+            color:white;
+        }
+           
+.nav a{
+    color:grey;
+    font-size: 12px;
+    margin-right: 10px; padding: 13px;
+}
+#icon{
+  font-size: 15px;
+   
+}
+#a1{
+
+}
+.navbar{
+  
+}
+
+.nav a:hover{
+    color:white;
+  
+}
+.nav a:active{
+    color:white;
+  
+}
+.nav #boot{
+  color: white; 
+}
+.nav a img{
+  height:20px;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.nav{
+  height:5px;
+
+}
+.navbar {
+  
+    min-height: 50px;
+    height: 50px;
+ }
+ .jumbotron{
+   padding:5px;
+ }
+.about.jumbotron.container.h1{
+	 font-size: 40px;
+   
+}
+           

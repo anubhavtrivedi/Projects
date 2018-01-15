@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Material design sign up form</title>
+  
+  
+  
+      <link rel="stylesheet" href="css1/style.css">
+<script type="text/javascript">
+
+function isNumberKey(evt)
+{
+   var charCode = (evt.which) ? evt.which : event.keyCode
+   if (charCode > 31 && (charCode < 48 || charCode > 57))
+      return false;
+
+   return true;
+}
+function isAlphabateKey(evt)
+{
+   var charCode = (evt.which) ? evt.which : event.keyCode
+   if (charCode > 64 && charCode <124)
+		   return true;
+
+   return false;
+}
+function validate()
+{
+	
+	var emailID= document.myForm.eMail.value;
+	atpos=emailID.indexOf("@");
+	dotpos=emailID.lastIndexOf(".");
+	if (atpos <1||( dotpos- atpos< 2))
+	{
+                     alert( "Please correct EmailId!");
+		document.myForm.eMail.focus();
+		return false;
+	}
+	var firstpassword=document.myForm.pass1.value;  
+	var secondpassword=document.myForm.pass2.value;  
+	  
+	if(firstpassword==secondpassword){  
+	return true;  
+	}  
+	else{  
+	alert("password must be same!");  
+	return false;  
+	}  
+	
+	
+
+}
+</script>
+  
+</head>
+
+<body>
+  <div id="login-box">
+  <div class="left">
+    <h1>Sign up</h1>
+       
+    <form  action="SignupServlet" method="get">
+    <input type="text" placeholder="Enter Name" name="name" required="required" onkeypress="return isAlphabateKey(event)"/>
+    <input type="text" placeholder="Enter Username" name="uname" required="required"/>
+    <input type="text" placeholder="Enter Email" name="eMail" required="required"/>
+    <input type="password" placeholder="Enter Password" name="pass1" required="required"/>
+  
+    <input type="text" placeholder="Enter MobileNo" name="mobNo" required="required" onkeypress="return isNumberKey(event)"/>    
+     
+    <input type="submit" name="Signup" value="Sign me up" />
+	</form>
+  </div>
+  
+  <div class="right">
+    <span class="loginwith">Sign in with<br />social network</span>
+    
+    <button class="social-signin facebook"><a href="https://www.facebook.com/" target="_blank">Log in with facebook</a></button>
+    <button class="social-signin twitter"><a href="https://www.instagram.com/" target="_blank">Log in with Twitter</button>
+    <button class="social-signin google"><a href="https://www.google+.com/" target="_blank">Log in with Google+</button>
+  </div>
+  <div class="or">OR</div>
+</div>
+  
+  
+</body>
+</html>
